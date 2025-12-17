@@ -1,5 +1,6 @@
 /// <reference path="../../types/fastify.d.ts" />
 import type { FastifyInstance } from "fastify";
+import crypto from "node:crypto";
 import { buildApp } from "../../src/app.js";
 
 /**
