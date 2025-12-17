@@ -57,11 +57,14 @@ jobs:
 
       - name: Setup Test Database
         env:
-          DATABASE_URL: "file:./.runtime/test.db"
+          DATABASE_URL: "file:./packages/api/.runtime/test.db"
           NODE_ENV: "test"
-        working-directory: packages/api
         run: |
-          mkdir -p .runtime
+          mkdir -p packages/api/.runtime
+          # Remove existing database to ensure clean state
+          rm -f packages/api/.runtime/test.db
+          # Generate Prisma client and push schema
+          cd packages/api
           npx prisma generate
           npx prisma db push --skip-generate --accept-data-loss
 

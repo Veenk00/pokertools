@@ -4,6 +4,7 @@
   "description": "TypeScript SDK for PokerTools API - Real-time poker client for browser and Node.js",
   "author": "A.Aurelius",
   "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
